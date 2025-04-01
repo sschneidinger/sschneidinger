@@ -10,19 +10,19 @@ Stock Selection
 
 The stocks selected for this project were:
 
-Apple (AAPL)
+  - Apple (AAPL)
 
-Microsoft (MSFT)
+  - Microsoft (MSFT)
 
-Google (GOOGL)
+  - Google (GOOGL)
 
-Amazon (AMZN)
+  - Amazon (AMZN)
 
-J.P. Morgan (JPM)
+  - J.P. Morgan (JPM)
 
-Bank of America (BAC)
+  - Bank of America (BAC)
 
-Lockheed Martin (LMT)
+  - Lockheed Martin (LMT)
 
 
 Data Collection and Processing
@@ -36,17 +36,17 @@ Correlation Analysis
 
 A correlation matrix was generated to examine the relationships between the selected stocks. The correlation coefficient values range between -1 and +1, where:
 
-+1 indicates a perfect positive correlation (stocks move in the same direction).
+  - +1 indicates a perfect positive correlation (stocks move in the same direction).
 
--1 indicates a perfect negative correlation (stocks move in opposite directions).
+  - -1 indicates a perfect negative correlation (stocks move in opposite directions).
 
-0 indicates no correlation.
+  - 0 indicates no correlation.
 
 From the correlation matrix, it became evident that stocks within the same sector exhibited stronger correlations. For example:
 
-  Technology sector: AAPL, GOOGL, and MSFT showed a high degree of correlation.
+  - Technology sector: AAPL, GOOGL, and MSFT showed a high degree of correlation.
 
-  Financial sector: BAC and JPM displayed strong positive correlation.
+  - Financial sector: BAC and JPM displayed strong positive correlation.
 
 
 
@@ -61,13 +61,13 @@ Portfolio Simulation
 
 With the necessary statistical metrics computed, I proceeded to simulate a portfolio using the following framework:
 
-  Weight Calculation: The sum of all stock weights in the portfolio must equal 1.
+  - Weight Calculation: The sum of all stock weights in the portfolio must equal 1.
 
-  Portfolio Returns: Computed by multiplying the stock weights by their respective       
-  annual returns.
+  - Portfolio Returns: Computed by multiplying the stock weights by their respective       
+  - annual returns.
 
-  Risk Computation: Further calculations were conducted and stored in a data frame for 
-  visualization.
+  - Risk Computation: Further calculations were conducted and stored in a data frame   
+    for visualization.
 
 
 Efficiency Frontier Visualization
@@ -78,24 +78,42 @@ The efficiency frontier helps identify optimal portfolio allocations that maximi
 
 Diversification is a crucial factor in risk mitigation.
 
-Each blue dot in the scatterplot represents a unique portfolio allocation.
+Each blue dot in the scatterplot represents a unique portfolio allocation. It represents the trade-off between expected returns on and volatility (risk) for different portfolio allocations.
 
 ![b9198b56-a98c-4de9-afe1-8867919af500](https://github.com/user-attachments/assets/2b86846d-ead2-4135-9dab-774a036b2f8c)
 
-To enhance clarity, each asset was assigned a unique color in the scatterplot. 
+To enhance clarity, each portfolio allocation was assigned a unique color in the scatterplot. 
 
 ![c89b2957-f4ea-4f1f-834f-0b696f309680](https://github.com/user-attachments/assets/3b910121-fc69-4411-9ac3-ed2ac094e3c1)
 
-Here we can see the black x
+Here we can see the black x marker. The black "X" marker represents the portfolio with the lowest possible risk. The reason it is located on the far left, is because that is where volatility is at its minimum. 
+The returns for this selection would be moderate, meaning is prioritizes stability over anything. Thus, this portfolio selection would have minimal flunctuations.
 
 ![1640d1e3-18de-4443-b648-3cc7f8db1314](https://github.com/user-attachments/assets/7934961a-e431-469a-9d7f-4ab25f33a70b)
 
-The two crosses show the....
+The two markers show the:
+
+  - Minimum Volatility Portfolio (Black X):
+
+    This is the portfolio with the lowest possible risk (volatility).
+
+    It is located on the far left of the plot.
+
+    Investors who are highly risk-averse may prefer this portfolio.
+    
+  - Optimal Risk Portfolio (Blue X):
+
+    This is the portfolio that offers the best risk-return trade-off.
+
+    It is typically chosen based on the Sharpe Ratio, which maximizes return per unit       of risk.
+
+    It lies on the efficient frontier where return is maximized for a given risk level.
+
 
 ![1efb0441-ecec-4460-bbc1-02eebc5b0fb1](https://github.com/user-attachments/assets/d91e30d6-212e-4146-9242-40269378e639)
 
 
-The most efficient region for diversification and risk mitigation is located between the minimum volatility portfolio and the optimal risk-return point, which is highlighted in gray shading on the plot.
+The most efficient region for diversification and risk mitigation is located between the minimum volatility portfolio and the optimal risk-return point, which is highlighted in gray shading on the plot. Anything outside of the gray shading would not align with our risk level.
 
 ![3f170b40-63de-4944-a27a-3c4a5c25a0af](https://github.com/user-attachments/assets/80c6731f-15d6-4dcd-8866-f836f1fb9149)
 
