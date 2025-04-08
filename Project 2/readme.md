@@ -1,5 +1,15 @@
 Efficiency Frontier Analysis
+<<<<<<< HEAD
+<<<<<<< HEAD
+For this project, I selected seven individual stocks listed on the New York Stock Exchange, ensuring they had a significant amount of historical data for analysis. These stocks were chosen at random to examine their correlations and observe how the efficiency frontier behaves with a diverse set of assets.
+=======
+Efficiency Frontier Analysis
 
+
+
+
+
+=======
 
 Introduction
 
@@ -80,16 +90,32 @@ Diversification is a crucial factor in risk mitigation.
 
 Each blue dot in the scatterplot represents a unique portfolio allocation. It represents the trade-off between expected returns on and volatility (risk) for different portfolio allocations.
 
+>>>>>>> a992505ddd4bf1a2485b950cfc60a333f0b37587
 ![b9198b56-a98c-4de9-afe1-8867919af500](https://github.com/user-attachments/assets/2b86846d-ead2-4135-9dab-774a036b2f8c)
+<<<<<<< HEAD
 
+<<<<<<< HEAD
+
+
+=======
+
+To enhance clarity, each portfolio allocation was assigned a unique color in the scatterplot. 
+=======
 Each portfolio allocation was assigned a unique color in the scatterplot to enhance clarity. 
+>>>>>>> 5676ed7cacbd79c14142d472fce79568f054984b
 
 ![c89b2957-f4ea-4f1f-834f-0b696f309680](https://github.com/user-attachments/assets/3b910121-fc69-4411-9ac3-ed2ac094e3c1)
 
 Here we can see the black x marker. The black "X" marker represents the portfolio with the lowest possible risk. It's located on the far left because that is where volatility is at its minimum. 
 The returns for this selection would be moderate, meaning is prioritizes stability over anything. Thus, this portfolio selection would have minimal fluctuations.
 
+>>>>>>> a992505ddd4bf1a2485b950cfc60a333f0b37587
 ![1640d1e3-18de-4443-b648-3cc7f8db1314](https://github.com/user-attachments/assets/7934961a-e431-469a-9d7f-4ab25f33a70b)
+<<<<<<< HEAD
+
+
+
+=======
 
 The two markers show the:
 
@@ -115,11 +141,27 @@ The two markers show the:
 
 The most efficient region for diversification and risk mitigation is located between the minimum volatility portfolio and the optimal risk-return point, which is highlighted in gray shading on the plot. Anything outside of the gray shading would not align with our risk level.
 
+>>>>>>> a992505ddd4bf1a2485b950cfc60a333f0b37587
 ![3f170b40-63de-4944-a27a-3c4a5c25a0af](https://github.com/user-attachments/assets/80c6731f-15d6-4dcd-8866-f836f1fb9149)
+<<<<<<< HEAD
 
 
 Conclusion
 
+<<<<<<< HEAD
+
+![c89b2957-f4ea-4f1f-834f-0b696f309680](https://github.com/user-attachments/assets/3b910121-fc69-4411-9ac3-ed2ac094e3c1)
+>>>>>>> 6ba6d1810ba410bb87600bc8b030dae367575e61
+=======
+>>>>>>> a992505ddd4bf1a2485b950cfc60a333f0b37587
+
+<<<<<<< HEAD
+
+=======
+
+
+>>>>>>> a992505ddd4bf1a2485b950cfc60a333f0b37587
+=======
 The Efficiency Frontier is important to visualize the fundamental trade-off between risk and return in portfolio optimization. I simulated thousands of allocations and  calculated how to optimise the portfolio with my chosen assets.
 
   - Diversification: Highlights how diversity in a portfolio allows for reducing the overall portfolio risk. Stocks within the same sector are heavily correlated, while others aren't.
@@ -131,3 +173,5 @@ The 'Sweet Spot' is selected within the Minimum Volatility and Optimal Risk area
   - Optimal Risk Portfolio -> ideal for investors seeking a balanced approach to risk and reward
 
 Understanding these two factors in a portfolio will help secure more success than long-lasting failure and loss of money.
+
+>>>>>>> 5676ed7cacbd79c14142d472fce79568f054984b
